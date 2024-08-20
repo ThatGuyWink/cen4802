@@ -1,5 +1,7 @@
 Overview
 
+Justin Winkler
+
 We delve intot he challeneges and methodologies associated with system integration. It is designed to display the knowledge of 4 key areas:
   - Integration: Learn the principles and best practices for merging various software components into one system.
   - Testing: Develop skills in rigorous testing methods to ensure components function seamlessly together.
