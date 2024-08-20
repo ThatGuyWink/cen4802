@@ -10,3 +10,4 @@ This repository contains all coursework, including sample projects, assignments,
 
 Clone this repository:
   git clone https://github.com/ThatGuyWink/cen4802.git
+  cd cen4802
