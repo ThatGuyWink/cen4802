@@ -2,8 +2,20 @@ package cen4802;
 
 import java.util.Scanner;
 
+/**
+ * This class defines methods for calculating Fibonacci numbers and includes a main method
+ * for user interaction to retrieve specific terms of the Fibonacci sequence.
+ */
+
 public class Fibonacci {
 
+    /**
+     * Recursively calculates the nth term of the Fibonacci sequence.
+     *
+     * @param n the position in the Fibonacci sequence to retrieve.
+     * @return the nth term of the Fibonacci sequence.
+     */
+    
     public static int fibonacci(int n) {
         if (n <= 1) {
             return n;
@@ -11,6 +23,13 @@ public class Fibonacci {
         return fibonacci(n - 1) + fibonacci(n - 2);
     }
 
+    /**
+     * Main method to interact with the user and display the 'nth' term of the Fibonacci sequence.
+     * The user is prompted to enter the term number they wish to retrieve. 10 is the preffered example.
+     *
+     * @param args not used.
+     */
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the term in the Fibonacci sequence you want to find: ");
@@ -27,4 +46,5 @@ public class Fibonacci {
         scanner.close();
     }
 }
+
 
